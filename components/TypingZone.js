@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "bulma/css/bulma.css";
 
 export default class TypingZone extends Component {
     constructor(props) {

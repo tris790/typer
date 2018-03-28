@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import TypingZone from "../components/TypingZone";
 import TextContainer from "../components/TextContainer";
 import ArticleHeader from "../components/ArticleHeader";
+import Timewatch from "../components/Timewatch";
 
 export default class HomePage extends Component {
     constructor(props) {
@@ -22,6 +23,7 @@ export default class HomePage extends Component {
             <Layout>
                 <ArticleHeader title={this.props.article.title} />
                 <TextContainer randomArticle={this.props.article.content} />
+                <Timewatch />
             </Layout>
         );
     }
